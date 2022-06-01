@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body{
+    background: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #fff;   
+}
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/pelé.jpg);
+    width: 1340px;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+}
+.filme-principal .descrição{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.títulos{
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.botão{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botão:hover{
+    background-color: white;
+    color: black;
+}
+.botão i{
+    margin-right: 8px;
+}
+.container{
+    margin-left: 10px;
+}
+.filme-principal .container{
+    width: 70%;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-filmes{
+    margin-top: 10px;
+}
+.titulos-carrosel{
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
